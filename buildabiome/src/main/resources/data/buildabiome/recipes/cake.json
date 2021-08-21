@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "xyz",
+    "vvv"
+  ],
+  "key": {
+    "y": {"item": "minecraft:milk_bucket"},
+    "w": {"item": "buildabiome:strawberry"},
+    "x": {"item": "minecraft:sugar"},
+    "z": {"item": "minecraft:egg"},
+    "v": {"item": "minecraft:wheat"}
+
+  },
+  "result": {
+    "item": "minecraft:cake"
+  }
+
+
+}
