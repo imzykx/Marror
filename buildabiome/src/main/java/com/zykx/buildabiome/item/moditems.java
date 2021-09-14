@@ -17,5 +17,9 @@ public class moditems
     public static final RegistryObject<Item> silver_ingot =
             Registration.ITEMS.register("silver_ingot",
             () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+
+    public static final RegistryObject<Item> SHRIMP =
+            Registration.ITEMS.register("shrimp",
+                    () -> new shrimp());
  //
 }
