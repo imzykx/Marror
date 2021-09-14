@@ -15,8 +15,7 @@ public class shrimp extends Item
                 .group(ItemGroup.FOOD)
                 .food(new Food.Builder()
                         .hunger(5)
-                        .saturation(1.5f)
-                        .effect(() -> new EffectInstance(Effects.GLOWING, 300, 1), 0.5f)
+                        .saturation(0.2f)
                         .build()));
     }
 }
