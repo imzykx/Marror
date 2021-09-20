@@ -30,6 +30,13 @@ public class moditems
                                     .defaultMaxDamage(150)
                                     .addToolType(ToolType.SHOVEL, 2)
                                     .group(ItemGroup.TOOLS)));
+
+    public static final RegistryObject<Item> SILVER_SWORD =
+            Registration.ITEMS.register("silver_sword",
+                    ()-> new SwordItem(ModItemTier.SILVER, 2, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(300)
+                                    .group(ItemGroup.TOOLS)));
     public static void register(){}
 
     public enum ModItemTier implements IItemTier
