@@ -7,5 +7,8 @@
   "block.buildabiome.new_wood": "New Wood",
   "item.buildabiome.shrimp": "Shrimp",
   "item.buildabiome.silver_shovel": "Silver Shovel",
-  "item.buildabiome.silver_sword": "Silver Sword"
+  "item.buildabiome.silver_sword": "Silver Sword",
+  "item.buildabiome.silver_hoe": "Silver Hoe",
+  "item.buildabiome.silver_pickaxe": "Silver Pickaxe",
+  "item.buildabiome.silver_axe": "Silver Axe"
 }
