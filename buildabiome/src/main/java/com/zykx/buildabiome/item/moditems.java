@@ -36,7 +36,34 @@ public class moditems
                     ()-> new SwordItem(ModItemTier.SILVER, 2, 2f,
                             new Item.Properties()
                                     .defaultMaxDamage(300)
-                                    .group(ItemGroup.TOOLS)));
+                                    .group(ItemGroup.TOOLS)
+                                    .group(ItemGroup.COMBAT)));
+
+    public static final RegistryObject<Item> SILVER_PICKAXE =
+            Registration.ITEMS.register("silver_pickaxe",
+                    ()-> new PickaxeItem(ModItemTier.SILVER, 2, 2.5f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
+                                    .group(ItemGroup.TOOLS)
+                                    .addToolType(ToolType.PICKAXE, 2)));
+
+    public static final RegistryObject<Item> SILVER_AXE =
+            Registration.ITEMS.register("silver_axe",
+                    ()-> new AxeItem(ModItemTier.SILVER, 2, 2.5f,
+                            new Item.Properties()
+                                    .addToolType(ToolType.AXE, 2)
+                                    .group(ItemGroup.TOOLS)
+                                    .group(ItemGroup.COMBAT)
+                                    .defaultMaxDamage(350)));
+
+    public static final RegistryObject<Item> SILVER_HOE =
+            Registration.ITEMS.register("silver_hoe",
+                    ()-> new HoeItem(ModItemTier.SILVER, 2, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(100)
+                                    .group(ItemGroup.TOOLS)
+                                    .defaultMaxDamage(150)));
+
     public static void register(){}
 
     public enum ModItemTier implements IItemTier
